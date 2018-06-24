@@ -1,0 +1,120 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+.navbar {
+    padding: .8rem 0;
+}
+
+.navbar.bg-light {
+    background: white!important;
+}
+
+.panel-jumbo {
+    background: url("../img/panel-jumbo-2.jpg") no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.panel-jumbo .wrapper {
+    background: rgba(22,22,22,0.7);
+    padding: 100px 50px;
+}
+
+.panel-jumbo .slogan {
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 62px;
+}
+
+.panel-jumbo .outro {
+    margin-top: 15px;
+    margin-bottom: 2rem;
+    font-family: "Rancho", cursive;
+    font-size: 28px;
+}
+
+.benefits {
+    margin: 70px 0;
+}
+
+.benefits .title {
+    color: #111111;
+    /*background-image: linear-gradient(90deg, rgb(247, 7, 80) 0%, rgb(166, 81, 184) 100%);*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+    text-align: center;
+}
+
+.benefits .desc {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #777;
+    text-align: center;
+}
+
+.partners .title {
+    font-weight: 800;
+    font-size: 70px;
+    text-align: center;
+    color: #111;
+}
+
+.partners {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.partners .sub-title {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: -20px;
+    font-size: 30px;
+    font-family: "Rancho", cursive;
+    color: rgb(247, 7, 80);
+    background-image: linear-gradient(to right, #ec008c, #fc6767);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.partners .desc {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #777;
+    font-family: "Rubik", sans-serif;
+}
+
+.partner-logos {
+    margin: 60px 0;
+}
+
+.partner-logos img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+}
+
+
+
+.button.outline {
+    border-radius: 30px;
+    border: 2px solid white;
+    background: transparent;
+    padding: .6rem 2.8rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+.button.outline:hover {
+    background: white;
+    color: #222!important;
+}
