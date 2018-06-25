@@ -1,0 +1,23 @@
+{{ include('/layout/master.view.html') }}
+
+    <div class="error-wrapper mb-5">
+        <div class="container">
+        <div class="error-header mb-4">
+            <h1 class="text-center">Something is technically wrong..</h1>
+        </div>
+
+            <div class="error-bug">
+                <img src="assets/img/bug.png">
+            </div>
+
+        <div class="error-body">
+            <p class="text-center">
+                Something is wrong with server. It returned a status code of <strong>500 Internal Server Error</strong>.<br>
+                You are requested to wait till we find the problem source and fix it ASAP!<br><br>
+                If you have any urgent queries, kindly drop at <a href="mailto:panel@i-apaconline.com">panel@i-apaconline.com</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+{{ include('/layout/footer.view.html') }}

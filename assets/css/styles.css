@@ -184,6 +184,33 @@ body {
     font-size: 35px;
 }
 
+.error-wrapper {
+    background: #3498DB;
+    padding: 100px 0;
+}
+
+.error-wrapper .error-header {
+    color: white;
+}
+
+.error-wrapper .error-bug {
+    margin: 40px 0;
+}
+
+.error-wrapper .error-bug img {
+    display: block;
+    margin: 0 auto;
+}
+
+.error-wrapper .error-body {
+    color: white;
+}
+
+.error-wrapper .error-body a {
+    color: white;
+    text-decoration: underline;
+}
+
 .button.outline {
     border-radius: 30px;
     border: 2px solid white;

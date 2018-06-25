@@ -17,7 +17,7 @@ class ResolveRoutes {
 	static function resolve($match) {
 		if (!$match) {
 			http_response_code(404);
-			return view('error');
+			return view('error', array('title' => 'Something is wrong'));
 		}
 
 		$controller = explode('@', $match['target'])[0];
