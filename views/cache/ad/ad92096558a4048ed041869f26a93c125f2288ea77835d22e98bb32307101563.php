@@ -25,6 +25,7 @@ class __TwigTemplate_6d2ee6cdec526d0ab0c3c890635bd57d0210c996339b0c3fd03749a4d03
 
 <div class=\"container\">
         <div class=\"panel-jumbo\">
+            <video src=\"assets/people_walking.mp4\" width=\"1110\" height=\"500\" autoplay loop></video>
             <div class=\"wrapper\">
                 <div class=\"row\">
                     <div class=\"col-7\">
@@ -40,14 +41,17 @@ class __TwigTemplate_6d2ee6cdec526d0ab0c3c890635bd57d0210c996339b0c3fd03749a4d03
         <div class=\"benefits\">
             <div class=\"row\">
                 <div class=\"col-4\">
+                    <img src=\"assets/img/participation.png\" class=\"d-block mx-auto mb-4\">
                     <h3 class=\"title\">Participate</h3>
                     <p class=\"desc\">Engage in different topics that interest you and where you want to see a change</p>
                 </div>
                 <div class=\"col-4\">
+                    <img src=\"assets/img/insights.png\" class=\"d-block mx-auto mb-4\">
                     <h3 class=\"title\">Provide Insights</h3>
                     <p class=\"desc\">We will help your insights and feedbacks reach to the right person</p>
                 </div>
                 <div class=\"col-4\">
+                    <img src=\"assets/img/rewards.png\" class=\"d-block mx-auto mb-4\">
                     <h3 class=\"title\">Get Rewarded</h3>
                     <p class=\"desc\">Voila! you get rewarded for providing your honest feedbacks that help shape the world around you</p>
                 </div>
@@ -56,46 +60,84 @@ class __TwigTemplate_6d2ee6cdec526d0ab0c3c890635bd57d0210c996339b0c3fd03749a4d03
 
         <div class=\"partners\">
             <h3 class=\"title\">Brands</h3>
-            <p class=\"sub-title\">We work with</p>
+            <!--<p class=\"sub-title\">We work with</p>-->
 
             <p class=\"desc\">
-                Get a chance to share your thoughts and idea with the top companies in world thereby impacting the results and get rewarded instantly for that. Hows that?
+                Get a chance to share your thoughts and ideas with the top companies in world and get rewarded instantly.
             </p>
 
             <div class=\"partner-logos\">
-                <div class=\"row\">
-                <div class=\"col-3\">
-                    <img src=\"assets/img/partners/adidas.png\" alt=\"Adidas\">
-                </div>
-                <div class=\"col-3\">
-                    <img src=\"assets/img/partners/honda.png\" alt=\"Honda\">
-                </div>
-                <div class=\"col-3\">
-                    <img src=\"assets/img/partners/puma.png\" alt=\"Puma\">
-                </div>
-                <div class=\"col-3\">
-                    <img src=\"assets/img/partners/riot.png\" alt=\"Riot Games\">
-                </div>
-
-                <div class=\"col-3\">
-                    <img src=\"assets/img/partners/samsung.png\" alt=\"Samsung\">
-                </div>
-                <div class=\"col-3\">
-                    <img src=\"assets/img/partners/suzuki.png\" alt=\"Suzuki\">
-                </div>
-                <div class=\"col-3\">
-                    <img src=\"assets/img/partners/corona.svg\" alt=\"Corona\">
-                </div>
-                <div class=\"col-3\">
-                    <img src=\"assets/img/partners/nike.png\" alt=\"Nike\">
-                </div>
-                </div>
+                <table class=\"table table-borderless\">
+                    <tr>
+                        <td><img src=\"assets/img/partners/adidas.png\" alt=\"Adidas\"></td>
+                        <td><img src=\"assets/img/partners/honda.png\" alt=\"Honda\"></td>
+                        <td><img src=\"assets/img/partners/puma.png\" alt=\"Puma\"></td>
+                        <td><img src=\"assets/img/partners/riot.png\" alt=\"Riot Games\"></td>
+                    </tr>
+                    <tr>
+                        <td><img src=\"assets/img/partners/lg.png\" alt=\"LG\"></td>
+                        <td><img src=\"assets/img/partners/suzuki.png\" alt=\"Suzuki\"></td>
+                        <td><img src=\"assets/img/partners/corona.png\" alt=\"Corona\"></td>
+                        <td><img src=\"assets/img/partners/nike.png\" alt=\"Nike\"></td>
+                    </tr>
+                </table>
             </div>
         </div>
+
+    <div class=\"testimonials\">
+        <h3 class=\"title text-center mb-4\">Testimonials</h3>
+        <div class=\"testimonials-wrapper float-left mb-4\">
+            <p class=\"review text-center\">
+                Powerr Sample makes me happy. Good incentives & rewards. Appreciate that 👍
+            </p>
+            <p class=\"respondent text-center\">
+                Varun Rathod - Mumbai, India
+            </p>
+        </div>
+        <div class=\"testimonials-wrapper float-right mb-4\">
+            <p class=\"review text-center\">
+                Surveys are interesting to respond.
+            </p>
+            <p class=\"respondent text-center\">
+                Wei An - Beijing, China
+            </p>
+        </div>
+        <div class=\"clearfix\"></div>
+        <div class=\"testimonials-wrapper float-left\">
+            <p class=\"review text-center\">
+                Short and meaningful surveys that are fun to answer
+            </p>
+            <p class=\"respondent text-center\">
+                Jason Tan - Singapore
+            </p>
+        </div>
+        <div class=\"testimonials-wrapper float-right\">
+            <p class=\"review text-center\">
+                Powerr Sample is really a good panel platform.. Provides lots of opportunities and good support
+            </p>
+            <p class=\"respondent text-center\">
+                Kim - Seoul, South Korea
+            </p>
+        </div>
+    </div>
+
+    <div class=\"clearfix\"></div>
+</div>
+
+<div class=\"cta-wrapper\">
+    <div class=\"container\">
+        <div class=\"cta\">
+            <h2 class=\"statement text-center mb-2\">So, Are you ready to provide your insights to make a change?</h2>
+            <p class=\"statement-cont text-center\">Click below to get started now</p>
+            <div class=\"text-center mt-4\">
+                <a href=\"\" class=\"button outline\">Get Started</a>
+            </div>
+        </div>
+    </div>
 </div>
 
 ";
-        // line 74
+        // line 116
         echo twig_include($this->env, $context, "/layout/footer.view.html");
     }
 
@@ -111,7 +153,7 @@ class __TwigTemplate_6d2ee6cdec526d0ab0c3c890635bd57d0210c996339b0c3fd03749a4d03
 
     public function getDebugInfo()
     {
-        return array (  99 => 74,  23 => 1,);
+        return array (  141 => 116,  23 => 1,);
     }
 
     public function getSourceContext()

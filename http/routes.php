@@ -11,7 +11,7 @@ $router = new \AltoRouter();
  * Routes definition
  */
 $router->map('GET', '/', 'HomeController@index');
-$router->map('GET', '/rewards', 'HomeController@index');
+$router->map('GET', '/rewards', 'RewardsController@index');
 $router->map('GET', '/payment-modes', 'HomeController@index');
 
 /*

@@ -22,7 +22,15 @@ class __TwigTemplate_7279c2457acd57bf0c3e84b98a8e1bfa5cb51b73d156513cb171b347af4
         // line 1
         echo "<div class=\"container\">
     <footer>
-        Footer
+        <h6 class=\"text-center\"><strong>GET IN TOUCH</strong></h6>
+        <div class=\"text-center\">
+            <a href=\"mailto:panel@i-apaconline.com\" class=\"text-center\">Contact</a>
+        </div>
+
+        <div class=\"mb-5\"></div>
+
+        <p class=\"text-center attribution\">&copy; Powerr Sample, 2018</p>
+        <p class=\"small text-center owner\">A brand of <a href=\"http://i-apaconline.com\" target=\"_blank\">iApac Online</a></p>
     </footer>
 </div>
 

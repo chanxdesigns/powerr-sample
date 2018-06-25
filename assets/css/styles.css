@@ -1,5 +1,5 @@
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -7,7 +7,11 @@ body {
 }
 
 .navbar {
-    padding: .8rem 0;
+    padding: .6rem 0;
+}
+
+.navbar .logo {
+    height: 50px;
 }
 
 .navbar.bg-light {
@@ -15,14 +19,22 @@ body {
 }
 
 .panel-jumbo {
-    background: url("../img/panel-jumbo-2.jpg") no-repeat;
-    background-size: cover;
     color: white;
+    height: 562px;
+}
+
+.panel-jumbo video {
+    object-fit: cover;
 }
 
 .panel-jumbo .wrapper {
+    position: relative;
+    top: -506px;
     background: rgba(22,22,22,0.7);
-    padding: 100px 50px;
+    height: 562px;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
 }
 
 .panel-jumbo .slogan {
@@ -35,12 +47,16 @@ body {
 .panel-jumbo .outro {
     margin-top: 15px;
     margin-bottom: 2rem;
-    font-family: "Rancho", cursive;
+    font-family: "Satisfy", cursive;
     font-size: 28px;
 }
 
 .benefits {
     margin: 70px 0;
+}
+
+.benefits img {
+    height: 100px;
 }
 
 .benefits .title {
@@ -59,6 +75,7 @@ body {
 }
 
 .partners .title {
+    font-family: "Open Sans", sans-serif;
     font-weight: 800;
     font-size: 70px;
     text-align: center;
@@ -74,9 +91,9 @@ body {
     position: relative;
     text-align: center;
     margin: 0;
-    top: -20px;
-    font-size: 30px;
-    font-family: "Rancho", cursive;
+    top: -40px;
+    font-size: 38px;
+    font-family: "Satisfy", cursive;
     color: rgb(247, 7, 80);
     background-image: linear-gradient(to right, #ec008c, #fc6767);
     -webkit-background-clip: text;
@@ -92,17 +109,80 @@ body {
 }
 
 .partner-logos {
-    margin: 60px 0;
+    margin: 30px 0 0;
+}
+
+.partner-logos .table td {
+    vertical-align: middle;
+    height: 110px;
 }
 
 .partner-logos img {
     display: block;
     margin: 0 auto;
-    width: 100px;
-    height: auto;
+    opacity: .4;
 }
 
+.testimonials {
+    margin: 100px 0;
+}
 
+.testimonials .title {
+    font-family: "Satisfy", cursive;
+    font-size: 55px;
+    background-image: linear-gradient(to right, rgba(116, 116, 191, 0.9), rgba(52, 138, 199, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.testimonials .testimonials-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 220px;
+    padding: 2rem;
+    width: 48.5%;
+    background: #7474BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(116, 116, 191, 0.9), rgba(52, 138, 199, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+}
+
+.testimonials .testimonials-wrapper .review {
+    font-size: 1.4rem;
+    flex: 1 0 300px;
+}
+
+.testimonials .testimonials-wrapper .respondent {
+    margin-bottom: 0;
+    flex: 1 0 300px;
+}
+
+.cta-wrapper {
+    margin: 100px 0;
+    background: #333;
+}
+
+.cta {
+    padding: 150px 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cta .statement {
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    background-image: linear-gradient(to right, #24c6dc, #514a9d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cta .statement-cont {
+    color: white;
+    font-family: "Satisfy", cursive;
+    font-size: 35px;
+}
 
 .button.outline {
     border-radius: 30px;
@@ -112,9 +192,43 @@ body {
     font-weight: 700;
     font-size: 1.2rem;
     transition: all 0.3s;
+    color: white;
+    text-decoration: none;
 }
 
 .button.outline:hover {
     background: white;
     color: #222!important;
+}
+
+.button.outline.small {
+    padding: .4rem 1rem;
+    font-size: .8rem;
+}
+
+.button.outline.blue {
+    border-color: #3498DB;
+    color: #222;
+}
+
+.button.outline.blue:hover {
+    background: #3498DB;
+    color: white!important;
+}
+
+.button.outline.gray {
+    border-color: #cccccc;
+    color: #222;
+}
+
+footer {
+    padding-bottom: 100px;
+}
+
+footer .attribution {
+    margin-bottom: 0;
+}
+
+footer .owner {
+    margin-top: 5px;
 }
