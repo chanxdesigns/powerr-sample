@@ -8,9 +8,9 @@ namespace Iapac\Panel\App;
  * @param array $variables
  */
 function view(string $viewName, array $variables = []) {
-	$loader= new \Twig_Loader_Filesystem(realpath('views'));
+	$loader= new \Twig_Loader_Filesystem(realpath('../views'));
 	$twig = new \Twig_Environment($loader, array(
-		"cache" => 'views/cache/',
+		"cache" => '../views/cache/',
 		"auto_reload" => true
 	));
 
