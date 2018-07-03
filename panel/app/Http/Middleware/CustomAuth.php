@@ -15,8 +15,18 @@ class CustomAuth
      */
     public function handle($request, Closure $next)
     {
-        if (empty($request->session()->get('email_id'))) {
-            return redirect('/login');
+        if (empty($request->session()->get('email'))) {
+            if (($request->route()->uri() == 'login') || ($request->route()->uri() == 'register') || ($request->route()->uri() == 'do/login') || ($request->route()->uri() == 'do/register')) {
+                return $next($request);
+            }
+            else {
+                return redirect('/login');
+            }
+        }
+        else {
+            if (($request->route()->uri() == 'login') || ($request->route()->uri() == 'register')) {
+                return redirect('/home');
+            }
         }
 
         return $next($request);

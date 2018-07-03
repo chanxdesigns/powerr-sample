@@ -1,37 +1,37 @@
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Rubik", sans-serif;
-}
+/*h1,h2,h3,h4,h5,h6 {*/
+    /*font-family: "Rubik", sans-serif;*/
+/*}*/
 
-body {
-    font-family: "Rubik", sans-serif;
-}
+/*body {*/
+    /*font-family: "Rubik", sans-serif;*/
+/*}*/
 
-.bg-dim {
-    background: #3498DB;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 30px 0;
-}
+/*.bg-dim {*/
+    /*background: #3498DB;*/
+    /*position: relative;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*padding: 30px 0;*/
+/*}*/
 
-.login-form {
-    width: 40%;
-    margin: 20px auto;
-    padding: 50px 30px;
-    background: white;
-    border-radius: 4px;
-}
+/*.login-form {*/
+    /*width: 40%;*/
+    /*margin: 20px auto;*/
+    /*padding: 50px 30px;*/
+    /*background: white;*/
+    /*border-radius: 4px;*/
+/*}*/
 
-.login-form .seperator {
-    margin-top: 40px;
-}
+/*.seperator {*/
+    /*margin-top: 40px;*/
+/*}*/
 
-.login-form .register {
-    width: 60%!important;
-}
+/*.login-form.register {*/
+    /*width: 50%!important;*/
+/*}*/
 
-.bg-light {
-    background: white!important;
-}
+/*.bg-light {*/
+    /*background: white!important;*/
+/*}*/

@@ -10,10 +10,7 @@ class LoginController extends Controller
 {
     public function __construct(Request $request)
     {
-        //$this->middleware('custom.auth');
-//        if ($request->session()) {
-//            return redirect('/home');
-//        }
+        $this->middleware('custom.auth');
     }
 
     public function index() {
@@ -21,17 +18,18 @@ class LoginController extends Controller
     }
 
     public function login(Request $request) {
-        $email = $request->input('email_id');
+        $email = $request->input('email');
         $pass = $request->input('password');
 
         $user = User::where('email', $email)->first();
 
-        if (Hash::check($pass, $user->password)) {
-            $request->session()->put('email_id', $email);
-            return redirect('/home');
+        if ($user) {
+            if (Hash::check($pass, $user->password)) {
+                $request->session()->put(['email' => $user->email, 'name' => $user->name]);
+                return redirect('/home');
+            }
         }
-        else {
-            return redirect('/login');
-        }
+
+        return back()->with('status', 'Failed to log in');
     }
 }

@@ -18,4 +18,6 @@ Route::get('/home', 'HomeController@index');
 
 Route::get('/logout', 'LogOutController@logout');
 
-Route::get('/sign-up', 'RegistrationController@index');
+Route::get('/register', 'RegistrationController@index');
+
+Route::post('/do/register', 'RegistrationController@register');

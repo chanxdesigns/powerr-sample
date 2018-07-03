@@ -8,17 +8,26 @@
                 @csrf
                 <h3 class="text-center">Login now</h3>
 
+                @if(session('status'))
+                    <div class="alert alert-danger" role="alert">
+                        {{session('status')}}
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                @endif
+
                 <div class="seperator">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email_id">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" name="email">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password" name="password">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    <p class="mt-3">Not registered? <a href="{{url('sign-up')}}">Sign up</a></p>
+                    <button type="submit" class="btn btn-primary">Log in</button>
+                    <p class="mt-3">Not registered? <a href="{{url('register')}}">Sign up</a></p>
                 </div>
             </form>
         </div>
