@@ -23,7 +23,7 @@ class ResolveRoutes {
 		$controller = explode('@', $match['target'])[0];
 		$method = explode('@', $match['target'])[1];
 
-		require 'http/controllers/'.$controller.'.php';
+		require '../http/controllers/'.$controller.'.php';
 
 		$controller = self::$namespace.'\\'.$controller;
 

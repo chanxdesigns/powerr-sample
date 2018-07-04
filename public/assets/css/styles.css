@@ -6,6 +6,10 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
+.goog-te-gadget-simple {
+    border: none!important;
+}
+
 .navbar {
     padding: .6rem 0;
 }
@@ -258,4 +262,72 @@ footer .attribution {
 
 footer .owner {
     margin-top: 5px;
+}
+
+
+/**
+Panel
+ */
+.bg-dim {
+    background: #3498DB;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px 0;
+    margin-bottom: 5rem;
+}
+
+.login-form {
+    width: 40%;
+    margin: 20px auto;
+    padding: 50px 30px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.20);
+}
+
+.seperator {
+    margin-top: 40px;
+}
+
+.login-form.register {
+    width: 50%!important;
+}
+
+.bg-light {
+    background: white!important;
+}
+
+.bc-container {
+    background: #666666;
+    color: white;
+    padding: 20px 0;
+}
+
+.bc-container p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.card-img-top-wrapper {
+    background: #444B5F;
+    padding: 20px 0;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.card-img-top {
+    display: block;
+    width:60%;
+    margin: 0 auto;
+}
+
+.table tr.disabled {
+    color: #999999;
+    cursor: not-allowed;
+}
+
+.basic-info .table tr td {
+    padding: .30rem;
 }
