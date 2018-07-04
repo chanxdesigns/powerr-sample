@@ -150,4 +150,50 @@ class CustomHelpers
                 break;
         }
     }
+
+    static function education($eduCode) {
+        switch ($eduCode) {
+            case 'below-primary':
+                return 'Below Primary School';
+                break;
+            case 'primary':
+                return 'Primary School';
+                break;
+            case 'middle':
+                return 'Middle School';
+                break;
+            case 'high':
+                return 'High School';
+                break;
+            case 'college':
+                return 'College or equivalent';
+                break;
+            case 'bachelor':
+                return 'Bachelor or degree equivalent';
+                break;
+            case 'master':
+                return 'Master or post graduate equivalent';
+                break;
+            case 'doctorate':
+                return 'Doctorate or equivalent';
+                break;
+        }
+    }
+
+    static function employment($empCode) {
+        switch ($empCode) {
+            case 'part-time':
+                return 'Part-time Employment';
+                break;
+            case 'student':
+                return 'Student';
+                break;
+            case 'housewife':
+                return 'Housewife';
+                break;
+            case 'freelancer':
+                return 'Freelancer';
+                break;
+        }
+    }
 }

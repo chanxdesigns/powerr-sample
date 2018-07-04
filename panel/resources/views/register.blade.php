@@ -58,9 +58,25 @@
                     </div>
                 </div>
 
+                    <div class="form-group">
+                        <label for="education">What is your education level?</label>
+                        <select class="custom-select" required name="education" id="education">
+                            <option selected>Choose an option</option>
+                            <option value="below-primary">Below Primary School</option>
+                            <option value="primary">Primary School</option>
+                            <option value="middle">Middle School</option>
+                            <option value="high">High School</option>
+                            <option value="college">College or equivalent</option>
+                            <option value="bachelor">Bachelor or degree equivalent</option>
+                            <option value="master">Master or post graduate equivalent</option>
+                            <option value="doctorate">Doctorate or equivalent</option>
+                        </select>
+                    </div>
+
                 <div class="form-group">
                     <label for="income">What is your family's current annual household income?</label>
                     <input class="form-control" type="number" id="income" name="income" required>
+                    <small class="form-text text-muted">*Please write the income amount in your local currency</small>
                 </div>
 
                 <div class="form-group">
@@ -114,9 +130,21 @@
                     </div>
                 </div>
 
+                    <div class="form-group unemployed-definition">
+                        <label for="notemp">Are you a</label>
+                        <select class="custom-select" name="notemp" id="notemp">
+                            <option selected>Choose an option</option>
+                            <option value="part-time">Part-time Employee</option>
+                            <option value="student">Student</option>
+                            <option value="housewife">Housewife</option>
+                            <option value="freelancer">Freelancer</option>
+                        </select>
+                    </div>
+
+                    <div class="employed-definition">
                 <div class="form-group">
                     <label for="industry">Which industry your company belongs to?</label>
-                    <select class="custom-select" name="industry" id="industry" required>
+                    <select class="custom-select" name="industry" id="industry">
                         <option selected>Choose an industry</option>
                         <option value="accounting">Accounting</option>
                         <option value="adv-pr">Advertising/Public Relations</option>
@@ -155,13 +183,19 @@
 
                 <div class="form-group">
                     <label for="workers">How many workers are there in your company?</label>
-                    <input class="form-control" type="number" id="workers" name="workers" required>
+                    <input class="form-control" type="number" id="workers" name="workers">
                 </div>
 
                 <div class="form-group">
                     <label for="comp-nature">What is the nature of your company?</label>
-                    <input class="form-control" type="" id="comp-nature" name="comp-nature" required>
+                    <input class="form-control" type="" id="comp-nature" name="comp-nature">
                 </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="e-pay">Which online payment methods do you use?</label>
+                        <input class="form-control" type="text" id="e-pay" name="e-pay" required>
+                    </div>
 
                 <div class="form-group">
                     <p>Do you hold a credit card?</p>
@@ -191,14 +225,52 @@
                     </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="e-pay">Which online payment methods do you use?</label>
-                    <input class="form-control" type="text" id="e-pay" name="e-pay" required>
-                </div>
+                    <div class="form-group">
+                        <p>Do you have a car?</p>
+                        <div class="form-check-inline">
+                            <label class="form-check-label" for="carYes">
+                                <input type="radio" class="form-check-input" id="carYes" name="car" value="yes">Yes
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label" for="carNo">
+                                <input type="radio" class="form-check-input" id="carNo" name="car" value="no">No
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <p>Have you travelled in the past 12 months?</p>
+                        <div class="form-check-inline">
+                            <label class="form-check-label" for="travelYes">
+                                <input type="radio" class="form-check-input" id="travelYes" name="travel" value="yes">Yes
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label" for="travelNo">
+                                <input type="radio" class="form-check-input" id="travelNo" name="travel" value="no">No
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <p>Do you run or jog atleast twice a week?</p>
+                        <div class="form-check-inline">
+                            <label class="form-check-label" for="runYes">
+                                <input type="radio" class="form-check-input" id="runYes" name="run" value="yes">Yes
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label" for="runNo">
+                                <input type="radio" class="form-check-input" id="runNo" name="run" value="no">No
+                            </label>
+                        </div>
+                    </div>
 
                 <div class="form-group">
                     <input type="submit" class="btn btn-success" value="Register">
                 </div>
+                    <p class="">Already registered? <a href="{{url('/login')}}">Login now</a></p>
                 </div>
             </form>
         </div>

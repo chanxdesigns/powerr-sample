@@ -33,18 +33,23 @@ class RegistrationController extends Controller
             $user->password = Hash::make($request->input('password'));
             $user->age = $request->input('age');
             $user->gender = $request->input('gender');
+            $user->education = $request->input('education');
             $user->income = $request->input('income');
             $user->city = $request->input('city');
             $user->province = $request->input('province');
             $user->country = $request->input('country');
             $user->marital = $request->input('marital');
             $user->employed = $request->input('employed') == 'yes';
+            $user->notemp = $request->input('notemp');
             $user->industry = $request->input('industry');
             $user->workers = $request->input('workers');
             $user->comp_nature = $request->input('comp-nature');
             $user->credit_card = $request->input('credit-card') == 'yes';
-            $user->child = $request->input('child') == 'yes';
             $user->e_pay = $request->input('e-pay');
+            $user->child = $request->input('child') == 'yes';
+            $user->car = $request->input('car') == 'yes';
+            $user->travel = $request->input('travel') == 'yes';
+            $user->run = $request->input('run') == 'yes';
             $user->save();
 
             $request->session()->put(['email' => $user->email, 'name' => $user->name]);

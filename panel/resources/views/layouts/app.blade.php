@@ -58,5 +58,6 @@
         <p class="small text-center owner">A brand of <a href="http://i-apaconline.com" target="_blank">iApac Online</a></p>
     </footer>
 </div>
+<script src="../../assets/js/panel.js"></script>
 </body>
 </html>

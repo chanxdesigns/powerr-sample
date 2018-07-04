@@ -324,7 +324,7 @@ Panel
 }
 
 .table tr.disabled {
-    color: #bbbbbb;
+    color: #999999;
     cursor: not-allowed;
 }
 
