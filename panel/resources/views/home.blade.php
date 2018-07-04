@@ -64,7 +64,7 @@
                             </tr>
                             <tr class="disabled">
                                 <td>BSMFA16</td>
-                                <td>BSM Summer Tracking Project</td>
+                                <td>BSM Fall Tracking Project</td>
                                 <td>20 Mins</td>
                                 <td>400 Coins</td>
                                 <td>Completed</td>
@@ -72,7 +72,7 @@
                             </tr>
                             <tr class="disabled">
                                 <td>BSMHO16</td>
-                                <td>BSM Summer Tracking Project</td>
+                                <td>BSM Winter Tracking Project</td>
                                 <td>20 Mins</td>
                                 <td>400 Coins</td>
                                 <td>Completed</td>
@@ -80,7 +80,7 @@
                             </tr>
                             <tr class="disabled">
                                 <td>BSMSP17</td>
-                                <td>BSM Summer Tracking Project</td>
+                                <td>BSM Spring Tracking Project</td>
                                 <td>20 Mins</td>
                                 <td>400 Coins</td>
                                 <td>Completed</td>
@@ -96,7 +96,7 @@
                             </tr>
                             <tr class="disabled">
                                 <td>BSMFA17</td>
-                                <td>BSM Summer Tracking Project</td>
+                                <td>BSM Fall Tracking Project</td>
                                 <td>20 Mins</td>
                                 <td>400 Coins</td>
                                 <td>Completed</td>
@@ -104,7 +104,7 @@
                             </tr>
                             <tr class="disabled">
                                 <td>BSMHO17</td>
-                                <td>BSM Summer Tracking Project</td>
+                                <td>BSM Winter Tracking Project</td>
                                 <td>20 Mins</td>
                                 <td>400 Coins</td>
                                 <td>Completed</td>
@@ -112,7 +112,7 @@
                             </tr>
                             <tr class="disabled">
                                 <td>BSMSP18</td>
-                                <td>BSM Summer Tracking Project</td>
+                                <td>BSM Spring Tracking Project</td>
                                 <td>20 Mins</td>
                                 <td>400 Coins</td>
                                 <td>Completed</td>
