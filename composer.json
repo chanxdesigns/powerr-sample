@@ -7,7 +7,7 @@
     "scripts": {
         "post-install-cmd": [
             "cd panel",
-            "composer install"
+            "ls"
         ]
     }
 }
