@@ -3,13 +3,16 @@
         "ext-mbstring": "*",
         "twig/twig": "^2.0",
         "altorouter/altorouter": "1.1.0"
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "cd panel",
-            "ls",
-          "cd vendor",
-          "ls"
-        ]
     }
+//,
+//    "scripts": {
+//        "laravel-deps": "panel/",
+//        "yeah": "ls",
+//        "post-install-cmd": [
+//            "cd panel",
+//            "ls",
+//          "cd vendor",
+//          "ls"
+//        ]
+//    }
 }
