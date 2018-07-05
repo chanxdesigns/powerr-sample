@@ -53,80 +53,81 @@
                 <div class="card">
                     <h5 class="card-header">Surveys for you</h5>
                     <div class="card-body">
-                        <table class="table table-striped table-borderless">
-                            <tr>
-                                <th scope="col">Name</th>
-                                <th scope="col">Description</th>
-                                <th scope="col">LOI</th>
-                                <th scope="col">Reward</th>
-                                <th scope="col">Status</th>
-                                <th scope="col">Action</th>
-                            </tr>
-                            <tr class="disabled">
-                                <td>BSMFA16</td>
-                                <td>BSM Fall Tracking Project</td>
-                                <td>20 Mins</td>
-                                <td>400 Coins</td>
-                                <td>Completed</td>
-                                <td>Start Survey</td>
-                            </tr>
-                            <tr class="disabled">
-                                <td>BSMHO16</td>
-                                <td>BSM Winter Tracking Project</td>
-                                <td>20 Mins</td>
-                                <td>400 Coins</td>
-                                <td>Completed</td>
-                                <td>Start Survey</td>
-                            </tr>
-                            <tr class="disabled">
-                                <td>BSMSP17</td>
-                                <td>BSM Spring Tracking Project</td>
-                                <td>20 Mins</td>
-                                <td>400 Coins</td>
-                                <td>Completed</td>
-                                <td>Start Survey</td>
-                            </tr>
-                            <tr class="disabled">
-                                <td>BSMSU17</td>
-                                <td>BSM Summer Tracking Project</td>
-                                <td>20 Mins</td>
-                                <td>400 Coins</td>
-                                <td>Completed</td>
-                                <td>Start Survey</td>
-                            </tr>
-                            <tr class="disabled">
-                                <td>BSMFA17</td>
-                                <td>BSM Fall Tracking Project</td>
-                                <td>20 Mins</td>
-                                <td>400 Coins</td>
-                                <td>Completed</td>
-                                <td>Start Survey</td>
-                            </tr>
-                            <tr class="disabled">
-                                <td>BSMHO17</td>
-                                <td>BSM Winter Tracking Project</td>
-                                <td>20 Mins</td>
-                                <td>400 Coins</td>
-                                <td>Completed</td>
-                                <td>Start Survey</td>
-                            </tr>
-                            <tr class="disabled">
-                                <td>BSMSP18</td>
-                                <td>BSM Spring Tracking Project</td>
-                                <td>20 Mins</td>
-                                <td>400 Coins</td>
-                                <td>Completed</td>
-                                <td>Start Survey</td>
-                            </tr>
-                            <tr>
-                                <td>BSMSU18</td>
-                                <td>BSM Summer Tracking Project</td>
-                                <td>20 Mins</td>
-                                <td>400 Coins</td>
-                                <td>Paused</td>
-                                <td><a href="">Start Survey</a></td>
-                            </tr>
-                        </table>
+                        <h6 class="text-danger">Sorry!! No projects are available for you right now. <br> Please check back again.</h6>
+                        {{--<table class="table table-striped table-borderless">--}}
+                            {{--<tr>--}}
+                                {{--<th scope="col">Name</th>--}}
+                                {{--<th scope="col">Description</th>--}}
+                                {{--<th scope="col">LOI</th>--}}
+                                {{--<th scope="col">Reward</th>--}}
+                                {{--<th scope="col">Status</th>--}}
+                                {{--<th scope="col">Action</th>--}}
+                            {{--</tr>--}}
+                            {{--<tr class="disabled">--}}
+                                {{--<td>BSMFA16</td>--}}
+                                {{--<td>BSM Fall Tracking Project</td>--}}
+                                {{--<td>20 Mins</td>--}}
+                                {{--<td>400 Coins</td>--}}
+                                {{--<td>Completed</td>--}}
+                                {{--<td>Start Survey</td>--}}
+                            {{--</tr>--}}
+                            {{--<tr class="disabled">--}}
+                                {{--<td>BSMHO16</td>--}}
+                                {{--<td>BSM Winter Tracking Project</td>--}}
+                                {{--<td>20 Mins</td>--}}
+                                {{--<td>400 Coins</td>--}}
+                                {{--<td>Completed</td>--}}
+                                {{--<td>Start Survey</td>--}}
+                            {{--</tr>--}}
+                            {{--<tr class="disabled">--}}
+                                {{--<td>BSMSP17</td>--}}
+                                {{--<td>BSM Spring Tracking Project</td>--}}
+                                {{--<td>20 Mins</td>--}}
+                                {{--<td>400 Coins</td>--}}
+                                {{--<td>Completed</td>--}}
+                                {{--<td>Start Survey</td>--}}
+                            {{--</tr>--}}
+                            {{--<tr class="disabled">--}}
+                                {{--<td>BSMSU17</td>--}}
+                                {{--<td>BSM Summer Tracking Project</td>--}}
+                                {{--<td>20 Mins</td>--}}
+                                {{--<td>400 Coins</td>--}}
+                                {{--<td>Completed</td>--}}
+                                {{--<td>Start Survey</td>--}}
+                            {{--</tr>--}}
+                            {{--<tr class="disabled">--}}
+                                {{--<td>BSMFA17</td>--}}
+                                {{--<td>BSM Fall Tracking Project</td>--}}
+                                {{--<td>20 Mins</td>--}}
+                                {{--<td>400 Coins</td>--}}
+                                {{--<td>Completed</td>--}}
+                                {{--<td>Start Survey</td>--}}
+                            {{--</tr>--}}
+                            {{--<tr class="disabled">--}}
+                                {{--<td>BSMHO17</td>--}}
+                                {{--<td>BSM Winter Tracking Project</td>--}}
+                                {{--<td>20 Mins</td>--}}
+                                {{--<td>400 Coins</td>--}}
+                                {{--<td>Completed</td>--}}
+                                {{--<td>Start Survey</td>--}}
+                            {{--</tr>--}}
+                            {{--<tr class="disabled">--}}
+                                {{--<td>BSMSP18</td>--}}
+                                {{--<td>BSM Spring Tracking Project</td>--}}
+                                {{--<td>20 Mins</td>--}}
+                                {{--<td>400 Coins</td>--}}
+                                {{--<td>Completed</td>--}}
+                                {{--<td>Start Survey</td>--}}
+                            {{--</tr>--}}
+                            {{--<tr>--}}
+                                {{--<td>BSMSU18</td>--}}
+                                {{--<td>BSM Summer Tracking Project</td>--}}
+                                {{--<td>20 Mins</td>--}}
+                                {{--<td>400 Coins</td>--}}
+                                {{--<td>Paused</td>--}}
+                                {{--<td><a href="">Start Survey</a></td>--}}
+                            {{--</tr>--}}
+                        {{--</table>--}}
                     </div>
                 </div>
             </div>
