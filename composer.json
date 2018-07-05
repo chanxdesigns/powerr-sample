@@ -6,7 +6,8 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "composer install panel/"
+            "cd panel/",
+            "composer install"
         ]
     }
 }
