@@ -3,5 +3,10 @@
         "ext-mbstring": "*",
         "twig/twig": "^2.0",
         "altorouter/altorouter": "1.1.0"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "composer install panel/"
+        ]
     }
 }
